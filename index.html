@@ -17,51 +17,67 @@
   <link rel="stylesheet" type="text/css" href="assets/css/appstyle.css">
 
 </head>
-<body>
 
-<div class="jumbotron text-center" style="margin-bottom:0">
-  <h1>ExampleFlgihtApp</h1>
-
-</div>
-
-
-
-
-
-
-
-
-  <div class="row">
-    <div class="col">
-
-        <a href="flighttime.html">
-          <img border="0" alt="planeclock" src="https://github.com/ksouders92/Project2/blob/master/public/assets/images/planeclock.png?raw=true" >
-
-
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar w/ text</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+      </ul>
+      <span class="navbar-text">
+        Navbar text with an inline element
+      </span>
     </div>
-    <div class="col">
-      
-      
+  </nav>
 
 
-      <a href="planeradar.html">
-        <img border="0" alt="planeclock" src="https://github.com/ksouders92/Project2/blob/master/public/assets/images/planeradar.png?raw=true" >
-        
+    <div class="jumbotron text-center">
+        <h1>The COOL Flight App</h1>
+    <p>A simple and easy way to get the Flight Information You need</p>
+  
+    </div>
 
-        
-        
-      </div>
-          <div class="col">
+<h3>
 
-      
-              <a href="airlines.html">
-                  <img border="0" alt="planeclock" src="https://github.com/ksouders92/Project2/blob/master/public/assets/images/airlines.png?raw=true" >
-        
-        
+    <div class="container text-center">    
+        <h3>Click on a Icon to Navigate </h3><br>
+        <div class="row">
+          <div class="col-lg-4">
+              <a href="flighttime.html">
+                  <img border="0" alt="planeclock" src="https://github.com/ksouders92/Project2/blob/master/public/assets/images/planeclock.png?raw=true" width="325" height="325" >
+           
           </div>
-    </div>
+          <div class="col-lg-4"> 
+              <a href=".html">
+                  <img border="0" alt="planeclock" src="https://github.com/ksouders92/Project2/blob/master/public/assets/images/planeradar.png?raw=true" width="325" height="325" >
+          
+          </div>
+          <div class="col--4">
+              <a href="airlines.html">
+                  <img border="0" alt="planeclock" src="https://github.com/ksouders92/Project2/blob/master/public/assets/images/airlines.png?raw=true" width="325" height="325" >
+         
+            </div>
+          
+          </div>
+        </div>
+      </div><br>
+
     
-<!--   Chart Js info here                -->
+    
+      
+</div>
+   <!--   Chart Js info here                -->
 <div id="canvas-holder" style="width:40%">
 		<canvas id="chart-area"></canvas>
 	</div>
