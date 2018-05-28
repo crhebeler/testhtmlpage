@@ -1,5 +1,50 @@
+h1{font-size: 55px;
+font-family: Broadway;}
 
-/* 
+body{ background-image: url("https://amazingpict.com/wp-content/uploads/2014/04/Sky-Clouds-from-Plane-Wallpaper.jpg");
+}
+.container-fluid {text-align: center;
+  display: block;
+ ;
+  width: 50%;
+  ;
+}
+
+
+.jumbotron{
+  background: none;
+  background: transparent;}
+
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
