@@ -30,6 +30,13 @@ body{ background-image: url("https://amazingpict.com/wp-content/uploads/2014/04/
       color: white;
       padding: 15px;
     }
+    .panel-body a {
+      word-break: break-all;
+    }
+
+    .articleHeadline {
+      line-height: 1.5;
+    }
 
 
 

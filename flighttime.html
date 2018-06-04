@@ -50,10 +50,85 @@
 
 <body>
 
-    
-    <div class="container-fluid">
-  <img src="https://4brf13430svm3bnu053zbxvg-wpengine.netdna-ssl.com/wp-content/uploads/2017/09/Southwest-Airlines-Review-from-Upgraded-Points-e1506536455337.jpg" width="525" height="525" >
-    </div>
+    <!-- Bootstrap Search Container -->
+  <div class="container">
+
+<h2> Search by State , Airport code , or Airport name to see What time you should arrive at the Aiport</h2>
+
+      <!-- Row for Searching the Mysql Data Base -->
+      <div class="row">
+        <div class="col-sm-12">
+          <br>
+          <!-- First panel handles search parameters -->
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">
+                <strong>
+                  <i class="fa  fa-list-alt"></i> Search Parameters</strong>
+              </h3>
+            </div>
+            <div class="panel-body">
+  
+              <!--  HTML Form for handling the inputs-->
+              <form role="form">
+  
+                <!-- text box for capturing the search term-->
+                <div class="form-group">
+                  <label for="search">Search by State</label>
+                  <input type="text" class="form-control" id="state-search">
+                </div>
+  
+  
+                <!-- Here we capture the airport code Parameter-->
+                <div class="form-group">
+                  <label for="airport-code">Aiport Code</label>
+                  <input type="text" class="form-control" id="airport-code">
+                </div>
+  
+                <!-- Here we capture the airport -->
+                <div class="form-group">
+                  <label for="airport-name">Aiport name</label>
+                  <input type="text" class="form-control" id="airport-name">
+                </div>
+  
+                <!-- Here we have our final submit button -->
+                <button type="submit" class="btn btn-default" id="run-search">
+                  <i class="fa fa-search"></i> Search</button>
+                <button type="button" class="btn btn-default" id="clear-all">
+                  <i class="fa fa-trash"></i> Clear Results</button>
+  
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- This row will handle all of the retrieved info that meets the search results -->
+      <div class="row">
+        <div class="col-sm-12">
+          <br>
+  
+          <!-- This panel will initially be made up of a panel  -->
+          <div class="panel panel-primary">
+  
+            <!-- Panel Heading for the retrieved info -->
+            <div class="panel-heading">
+              <h3 class="panel-title">
+                <strong>
+                  <i class="fa fa-table"></i> Your Results</strong>
+              </h3>
+            </div>
+  
+            <!-- Resluts from the search -->
+            <div class="panel-body" id="well-section">
+            </div>
+          </div>
+        </div>
+      </div>
+
+ 
+
+
 
     <div class="jumbotron text-center" style="margin-bottom:0">
         <a href="team.html">Meet the Creators of the ExampleFlgihtApp</a>
